@@ -1,0 +1,163 @@
+/* ========================================
+   Body
+======================================== */
+
+body {
+
+  /* Define the font family (with a backup font) */
+  /* font-family: Arial, sans-serif; */
+
+  /* Set the text color */
+  /* color: #333; */
+
+  /* Set the page background color */
+  /* background-color: beige; */
+
+}
+
+/* ========================================
+   Headings & Paragraphs
+======================================== */
+
+h1 {
+
+  /* Change the size of the main heading */
+    font-size: 2.5rem;
+
+  /* Make the heading bold */
+    font-weight: bold; 
+
+  /* Change the heading color */
+    color: deeppink; 
+
+}
+
+h2 {
+
+  /* Change the heading size */
+    font-size: 1.75rem; 
+
+}
+
+h3 {
+
+  /* Change the heading size */
+    font-size: 1.25rem; 
+
+}
+
+p {
+
+  /* Add space between lines of text */
+    line-height: 1.5; 
+
+}
+
+/* ========================================
+   Navigation
+======================================== */
+
+nav ul {
+
+  /* Remove the default bullets */
+    list-style: none; 
+   disply: inline;
+
+}
+
+nav a {
+
+  /* Remove the default underline these are more notes as long as they are in the brackets */
+  /* text-decoration: none; */
+
+  /* Change the link color */
+    color: deeppink; 
+
+}
+
+/* ========================================
+   Main Content
+======================================== */
+
+section {
+
+  /* Draw a border around each section */
+  border: 4px solid violet;
+  /* border: 3px solid pink; */
+
+  /* Add space inside the border */
+   padding: 1rem;
+
+  /* Add space outside the section */
+   margin: 2rem;
+
+  /* Round the corners */
+   border-radius: 10px;
+
+}
+
+/* ========================================
+   ID Selector
+======================================== */
+
+#songs {
+
+  /* Target only the Songs section */
+  border: 5px dashed deeppink;
+  background-color: whitesmoke;
+  color: green;
+
+}
+#songs h2{
+  color:black;
+}
+/* ========================================
+   Images
+======================================== */
+
+img {
+
+  /* Add a border */
+    border: 4px solid #999;
+
+  /* Round the corners */
+    border-radius: 10px;
+
+}
+
+/* ========================================
+   Buttons
+======================================== */
+
+button {
+
+  /* Add space inside the button */
+    padding: .75rem 1rem;
+
+  /* Remove the default border */
+    border: none; 
+
+  /* Round the corners */
+    border-radius: 8px;
+
+  /* Set the button color */
+    background-color: deeppink;
+
+  /* Change the text color */
+    color: white; 
+
+}
+
+/* ========================================
+   Footer
+======================================== */
+
+footer {
+
+  /* Change the background color */
+    background-color: pink;
+
+  /* Add padding */
+    padding: 1rem; 
+
+}
